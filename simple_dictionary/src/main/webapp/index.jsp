@@ -1,0 +1,18 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSP simple_dictionary</title>
+</head>
+<body>
+<h1>Simple_dictionary
+</h1>
+<br/>
+<h2>Vietnamese Dictionary</h2>
+<form action="/translate" method="get">
+    <input type="text" name="txtSearch" placeholder="Enter your word: "/>
+    <input type = "submit" id = "submit" value = "Search"/>
+</form>
+
+</body>
+</html>
